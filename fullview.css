@@ -55,6 +55,7 @@ body {
     top: 50%;
     left: 96%;
     transform: translate(-50%, -50%);
+    display: none;
 }
 
 #fv-dots ul {
