@@ -109,6 +109,7 @@ body{
 
 .main_search_bar ::placeholder{
     color: #CE0000;
+    opacity: 50%;
 }
 
 #search_bar_main{
