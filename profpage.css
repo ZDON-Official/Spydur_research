@@ -44,7 +44,7 @@ body{
 }
 
 #professor_name{
-	aligni-tems: center;
+	align-items: center;
 	color: white;
 }
 
@@ -54,6 +54,7 @@ body{
 	flex-direction: row;
 	padding: 3rem;
 	margin-bottom: 0;
+	justify-content: space-between;
 }
 
 #left_container{
@@ -63,6 +64,15 @@ body{
 	width: 50%;
 	padding: 2.5rem;
 	flex-basis: 50%;
+
+	height: 80vh;
+
+	/*! for testing */
+	border: 2px solid red;
+}
+
+.text-box{
+	height: 200px;
 }
 
 #right_container{
@@ -72,29 +82,42 @@ body{
 	width: 50%;
 	padding: 2.5rem;
 	justify-content: right;
-	flex-basis: 5%:
+	flex-basis: 5%;
 }
 
 #department, #research_name, #desc, #responsibilities, #picture{
 	background-color: white;
 	color: black;
-	box-shadow: -8px 8px 12px #12121240;
+	box-shadow: 0px 2px 12px #12121240;
+	border-radius: 12px;
+	box-sizing: border-box;
+	padding: 5px 10px;
 }
 
 #department, #research_name, #desc, #responsibilities{
-	height: 90px;
+	/* height: 90px; */
 }
 
 #picture{
-	height: 300px;
-	width: 225px;
+	height: 400px;
+	width: 350px;
+
+
+	/*! maybe delete later */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #button{
 	background-color: red;
-	box-shadow: -8px 8px 12px #12121240;
-	width: 120px;
-	height: 60px;
+	color: white;
+	box-shadow: 0px 2px 12px #12121240;
+	width: 350px;
+	height: 80px;
+	border: none;
+	border-radius: 12px;
+	font-size: 38px;
 }
 
 #top {
