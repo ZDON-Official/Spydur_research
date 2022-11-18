@@ -10,7 +10,7 @@ body{
 }
 
 .banner{
-	display-content: flex;
+	display: flex;
 	justify-content: center;
     position: fixed;
     height: 50px;
@@ -68,7 +68,7 @@ body{
 	height: 80vh;
 
 	/*! for testing */
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 .text-box{
