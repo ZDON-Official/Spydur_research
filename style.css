@@ -245,9 +245,44 @@ body{
     width: 400px;
     /* margin: 0px 15px; */
     background-color: white;
+    color: black;
     border-radius: 12px;
     box-shadow: 0px 2px 12px #12121240;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5px 10px; */
+    padding: 50px 0px;
 }
+
+.department img{
+    background-color: #CE0000;
+    height: 320px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.prof_name{
+    font-size: 36px;
+}
+
+.dep_button{
+    color: #CE0000;
+}
+
+.dep_button a{
+    color: #CE0000;
+    text-decoration: none;
+}
+
+.dep_button a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 
 .department_title{
     /* position: absolute; */
