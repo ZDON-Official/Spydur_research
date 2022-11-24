@@ -11,8 +11,8 @@ body{
 
 .banner{
 	display: flex;
-	justify-content: center;
-    position: fixed;
+	justify-content: space-between;
+    position: relative;
     height: 50px;
     width: 100vw;
     background-color: #CE0000;
@@ -24,7 +24,7 @@ body{
 }
 
 .faq_button{
-    position: absolute;
+    /* position: absolute; */
     margin: 13px 10px;
     /* margin-left: 10px; */
     height: 25px;

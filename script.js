@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // $(document).ready(function () {
 //     $("#fullview").fullView();
 // });
@@ -29,3 +30,30 @@ function fill_department(dep_object)
 		}
 	}
 }
+=======
+// $(document).ready(function () {
+//     $("#fullview").fullView();
+// });
+
+// var search_bar = document.getElementById('search_bar_main')
+
+// search_bar.addEventListener('keydown', check_input())
+
+function check_input(e){
+    console.log('search bar')
+    document.location.href = './departments.html'
+    
+    // console.log(`inside search`)
+    // if(e.key() === 'Enter'){
+    // }
+
+   
+    
+    // if(Event.key === 'Enter'){
+    //     console.log('checking search bar')
+    //     document.location.href = './departments.html'
+    // }
+}
+
+// search_bar.addEventListener('blur', check_input())
+>>>>>>> cfd5e70 (redesigning)
