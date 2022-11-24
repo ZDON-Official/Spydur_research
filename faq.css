@@ -22,11 +22,53 @@ body{
     justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+
+    /* width: 300px; */
+    
+}
+
+.sub_menu{
+    /* display: flex; */
+    position: absolute;
+    margin-left: 70px;
+    /* border: 2px solid gold; */
+    width: 140px;
+    display: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+#menu:hover .sub_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* cursor: pointer; */
+    /* background-color: black; */
+}
+
+.sub_menu a:hover{
+    color: black;
+}
+
 .header{
 
 }
 
-.faq_button{
+.menu_button{
     /* position: absolute; */
     margin: 13px 10px;
     /* margin-left: 10px; */
