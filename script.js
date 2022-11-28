@@ -71,7 +71,7 @@ if(window.location.pathname === '/prof_profile.html'){
 	
 	var img = document.getElementById('picture')
 	// img.innerHTML = `<img src="" alt="${assets[name]}">`
-	img.innerHTML = `<img src="${assets[name]}" alt="picture of Dr. Rana">`
+	img.innerHTML = `<img src="${assets[name]}" alt="picture of ${name}">`
 } else{
 
 	localStorage.clear
