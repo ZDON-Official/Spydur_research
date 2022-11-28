@@ -121,7 +121,7 @@ body{
 	justify-content: space-between;
 }
 
-#department, #research_name, #desc, #responsibilities, #picture{
+#department, #research_name, #desc, #responsibilities{
 	background-color: white;
 	color: black;
 	box-shadow: 0px 2px 12px #12121240;
@@ -137,18 +137,30 @@ body{
 #picture{
 	height: 400px;
 	width: 350px;
-
+	color: black;
+	/* background-color: #CE0000; */
 
 	/*! maybe delete later */
-	display: flex;
+	/* display: flex;
 	align-items: center;
+	justify-content: center; */
+}
+
+#picture img{
+	height: 100%;
+	width: 100%;
+	border-radius: 12px;
+	box-shadow: 0px 2px 12px #12121280;
+	object-fit: cover;
+	/* display: flex;
 	justify-content: center;
+	align-items: center; */
 }
 
 #button{
 	background-color: #CE0000;
 	color: white;
-	box-shadow: 0px 2px 12px #12121240;
+	box-shadow: 0px 2px 12px #12121280;
 	width: 350px;
 	height: 80px;
 	border: none;

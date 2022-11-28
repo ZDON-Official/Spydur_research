@@ -287,7 +287,9 @@ a:visited { text-decoration: none; }
     height: auto;
     display: block;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 12px #12121280;
+
 }
 
 .news_links{
@@ -369,18 +371,24 @@ a:visited { text-decoration: none; }
 
 .dep_pic
 {
-    background-color: #CE0000;
+    /* background-color: #CE0000; */
     width: 250px;
     height: 200px;
-    border-radius: 5px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
 .dep_pic img{
-    border-radius: 5px;
-    width: 100%;
+    border-radius: 8px;
+    width: auto;
+    max-width: 250px;
     height: auto;
-
+    max-height: 200px;
+    box-shadow: 0px 2px 12px #12121280;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .prof_name
@@ -408,7 +416,7 @@ a:visited { text-decoration: none; }
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-    box-shadow: 0px 2px 4px #12121240;
+    box-shadow: 0px 2px 12px #12121280;
     box-sizing: border-box;
 }
 
