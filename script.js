@@ -58,7 +58,7 @@
 // })
 
 var assets = {
-	'Dr. Rana' : '/Assets/rana.png',
+	'Dr. Rana' : 'Assets/rana.png',
 	'Dr. Shaw' : 'shaw placeholder',
 	'Dr. Szajda' : 'szajda placeholder'
 }
