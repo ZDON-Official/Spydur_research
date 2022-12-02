@@ -63,9 +63,11 @@ var assets = {
 	'Dr. Szajda' : 'szajda placeholder'
 }
 
-
-if(window.location.pathname === '/prof_profile.html'){
-	console.log(`on prof page - ${window.location.pathname}`)
+var url=location.href;
+var urlFilename = url.substring(url.lastIndexOf('/')+1);
+console.log(`file name is - ${urlFilename}`)
+if(urlFilename === 'prof_profile.html'){
+	console.log(`on prof page`)
 	var professor_name = document.getElementById('prof_name')
 	let name = localStorage.getItem('name')
 	professor_name.innerText = name
