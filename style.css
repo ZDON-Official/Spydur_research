@@ -56,7 +56,7 @@ body{
     position: absolute;
     margin-left: 70px;
     /* border: 2px solid gold; */
-    width: 130px;
+    width: 150px;
     display: none;
     font-size: inherit;
     font-weight: inherit;
@@ -164,7 +164,6 @@ a:visited { text-decoration: none; }
 }
 
 /* down arrow */
-/* todo - change arrow style and add animation */
 .news_arrow{
     position: absolute;
     display: flex;
@@ -206,7 +205,7 @@ a:visited { text-decoration: none; }
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: center; */
     height: 100vh;
     /* border: 2px solid red; */
     padding: 55px;
@@ -253,14 +252,16 @@ a:visited { text-decoration: none; }
 }
 
 .news{
-    height: 400px;
-    width: 300px;
+    height: 500px;
+    width: 350px;
     margin: 0px 15px;
     padding: 20px 0px;
     box-sizing: border-box;
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0px 2px 12px #12121240;
+    /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.45); */
+    box-shadow: -4px 4px 12px #12121240;
+
     color: black;
 
     display: flex;
@@ -275,8 +276,10 @@ a:visited { text-decoration: none; }
 .news_img{
     /* background-color: #CE0000s; */
     border-radius: 5px;
-    height: 250px;
+    /* height: 250px; */
     width: 250px;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
 }
 
 /*! might have to change this */
@@ -293,15 +296,23 @@ a:visited { text-decoration: none; }
 }
 
 .news_links{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     margin: 10px;
+    /* border: 2px solid red; */
+    height: 150px;
 }
 
 .news_links:hover{
     text-decoration: underline;
+    color: #CE0000;
+    text-shadow: 0px 2px 4px #1212122a;
 }
 
+
+.news_sum{
+    margin: 10px;
+}
 
 
 
@@ -336,7 +347,8 @@ a:visited { text-decoration: none; }
     margin: 0px 15px;
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0px 2px 12px #12121240;
+    /* box-shadow: 0px 2px 12px #12121240; */
+    box-shadow: -4px 4px 12px #12121240;
     display: flex;
     flex-direction: column;
     justify-content: center;
