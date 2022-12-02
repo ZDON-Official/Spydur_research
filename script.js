@@ -59,7 +59,7 @@ console.log("script loaded")
 
 var assets = {
 	'Dr. Rana' : 'Assets/rana.png',
-	'Dr. Shaw' : 'shaw placeholder',
+	'Dr. Shaw' : 'Assets/shaw.jpg',
 	'Dr. Szajda' : 'szajda placeholder'
 }
 
