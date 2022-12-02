@@ -65,6 +65,7 @@ var assets = {
 
 
 if(window.location.pathname === '/prof_profile.html'){
+	console.log('on prof page')
 	var professor_name = document.getElementById('prof_name')
 	let name = localStorage.getItem('name')
 	professor_name.innerText = name
