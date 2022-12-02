@@ -32,7 +32,7 @@
 
 
 
-// console.log("script loaded")
+console.log("script loaded")
 // const buttons = document.querySelectorAll("[data-carousel-button]")
 
 // console.log(`button is ${buttons.length}`)
