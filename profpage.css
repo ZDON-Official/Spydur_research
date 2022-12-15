@@ -26,10 +26,12 @@ body{
 #menu{
     display: flex;
     align-items: center;
-    /* border: 2px solid black; */
+    display: flex;
+    margin-left: 10px;
+}
 
-    /* width: 300px; */
-    
+#menu *{
+    margin: 5px;
 }
 
 .sub_menu{
