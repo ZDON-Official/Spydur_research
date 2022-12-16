@@ -17,3 +17,5 @@ Our mock website can be visited by clicking the link bellow.
 # Landing Page
 
 ---
+
+We wanted our landing page to as inviting as possible. This is why we decided to go with super minimalistic landing page, with a background image of our campus and a search bar. We also decided to add news section that can be reached by scrolling down on the landing page. Here students will be able to view and learn about past on campus researches.
